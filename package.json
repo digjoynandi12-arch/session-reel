@@ -1,0 +1,20 @@
+{
+  "name": "session-reel",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "session-reel": "bin/session-reel.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "^24.10.0",
+    "zod": "^4.6.7"
+  },
+  "description": "Turn a Claude Code session transcript into a 1080x1920 video reel",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node bin/session-reel.js"
+  },
+  "private": true
+}
